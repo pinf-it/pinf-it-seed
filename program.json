@@ -1,0 +1,19 @@
+{
+    "config": {
+        "github.com/sourcemint/sm/0": {
+            "toolchain": {
+                "vcs": "git",
+                "os": "darwin",
+                "platform": "node",
+                "profile": "default",
+                "paths": {
+                    "home": "/pinf",
+                    "cache": "./cache",
+                    "profiles": "./profiles",
+                    "try": "./try",
+                    "projects": "./projects"
+                }
+            }
+        }
+    }
+}

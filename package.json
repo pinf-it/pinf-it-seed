@@ -1,0 +1,25 @@
+{
+    "name": "pinf-it-seed",
+    "name": "seed",
+    "version": "0.1.0",
+    "pm": "sm",
+    "mappings": {
+        "sm": [
+            "archive",
+            "https://s3.amazonaws.com/s3.sourcemint.org/github.com/sourcemint/sm/-archives/sm-0.3.6-pre.60.tgz"
+        ],
+        "node": [
+            "archive",
+            "http://nodejs.org/dist/v0.8.19/node-v0.8.19-darwin-x64.tar.gz",
+            {
+                "descriptor": {
+                    "bin": {
+                        "node": "./bin/node",
+                        "node-waf": "./bin/node-waf",
+                        "npm": "./bin/npm"                        
+                    }
+                }
+            }
+        ]
+    }
+}

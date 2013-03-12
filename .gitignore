@@ -1,0 +1,5 @@
+.sm*
+/node_modules/
+/cache/
+/try/
+/projects/
