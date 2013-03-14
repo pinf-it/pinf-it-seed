@@ -6,7 +6,7 @@
     "mappings": {
         "sm": [
             "archive",
-            "https://s3.amazonaws.com/s3.sourcemint.org/github.com/sourcemint/sm/-archives/sm-0.3.6-pre.60.tgz"
+            "https://s3.amazonaws.com/s3.sourcemint.org/github.com/sourcemint/sm/-archives/sm-0.3.6-pre.61.tgz"
         ],
         "node": [
             "archive",
