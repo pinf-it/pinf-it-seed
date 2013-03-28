@@ -1,7 +1,6 @@
 {
-    "name": "pinf-it-seed",
     "name": "seed",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "pm": "sm",
     "mappings": {
         "sm": [
@@ -16,7 +15,7 @@
                     "bin": {
                         "node": "./bin/node",
                         "node-waf": "./bin/node-waf",
-                        "npm": "./bin/npm"                        
+                        "npm": "./bin/npm"
                     }
                 }
             }
