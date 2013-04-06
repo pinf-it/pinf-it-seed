@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# @credit http://stackoverflow.com/a/246128/330439
+SOURCE="${BASH_SOURCE[0]}"
+while [ -h "$SOURCE" ]; do
+  DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ $SOURCE != /* ]] && SOURCE="$DIR/$SOURCE"
+done
+BASE_PATH="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+
+
+SM_BIN_PATH=$BASE_PATH/../.sm/bin/sm
+
+echo "Installing 'sm' on PATH:"
+sudo $SM_BIN_PATH --install-command
